@@ -1,0 +1,10 @@
+# Force Dart as main language
+*.dart linguist-language=Dart
+
+# Ignore platform native code for stats
+android/** linguist-vendored
+ios/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+web/** linguist-vendored
